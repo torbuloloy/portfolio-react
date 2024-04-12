@@ -5,7 +5,7 @@ import {
     SiPostman,
     SiSlack,
     SiVercel,
-    SiMacos, SiPhpstorm, SiPhp, SiLaravel, SiNpm,
+    SiMacos, SiPhpstorm, SiPhp, SiLaravel, SiNpm, SiEclipseide, SiIntellijidea,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -18,10 +18,10 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp />
+        <SiIntellijidea/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLaravel />
+        <SiEclipseide />
       </Col>
     </Row>
   );

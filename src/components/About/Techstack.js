@@ -3,30 +3,20 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
     DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiMongodb,
+
     DiPython,
     DiGit,
     DiJava, DiPhp, DiLaravel, DiAndroid, DiHtml5,
 } from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
-
+import {SiGit, SiJavascript, SiLaravel, SiPhp} from "react-icons/si";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
+        <SiPhp />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiLaravel />
+            <SiLaravel />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiAndroid />
@@ -35,10 +25,10 @@ function Techstack() {
             <DiHtml5 />
         </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiJavascript />
         </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
