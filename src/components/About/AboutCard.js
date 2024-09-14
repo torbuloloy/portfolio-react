@@ -12,9 +12,9 @@ function AboutCard() {
             from <span className="purple"> Tagum City, Philippines</span>
             <br />
             <br />
-            I am currently a 3rd year BSIT student at the University of Southeastern Philippines.
+            I am currently a 4th year BSIT student at the University of Southeastern Philippines.
             <br />
-            I am also looking for a company that might be willing to train and accept me as an intern.
+            I am also looking for a company that might be willing to train and make me a part of.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -32,7 +32,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Do not be afraid to be different!"{" "}
+            "Through Christ All Things Are Possible!"{" "}
           </p>
           <footer className="blockquote-footer">LJ</footer>
         </blockquote>
